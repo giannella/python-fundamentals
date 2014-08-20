@@ -1,6 +1,6 @@
 # We'll start off by grabbing your names from the last file
 
-from A_defining_strings import your_first_name, your_last_name
+# from A_defining_strings import your_first_name, your_last_name
 
 # Using string methods
 ## We're updating our administrative system, so we need to capitalize your last
@@ -8,11 +8,15 @@ from A_defining_strings import your_first_name, your_last_name
 
 ## Set cap_last_name to an uppercase version of your_last_name
 
+your_first_name = "eric "
+your_last_name = "giannella"
 
+cap_first_name = str.upper(your_first_name)
+cap_last_name = str.upper(your_last_name)
 
 ## You can print it to see how it looks
 
-
+print cap_last_name
 
 ## And we'll need to check how long your name is to make sure there's enough
 ## space in our database! Be sure to count a space between your first and last
@@ -21,9 +25,10 @@ from A_defining_strings import your_first_name, your_last_name
 ## Put the total length of your name in name_len. You can use multiple steps if
 ## you like.
 
+name_len = len(your_last_name) + len(your_first_name) + 1
 
 
-print "We'll need", "your name_len here", "characters for my name"
+print "We'll need " + str(name_len) + " characters for my name"
 
 
 ## Note that we've been using print with commas. This puts a space between each
@@ -33,3 +38,4 @@ print "We'll need", "your name_len here", "characters for my name"
 ## For example, I'd be "CLARK, Dav"
 
 print "CLARK, Dav... wait, that's not right!"
+print cap_last_name + ", " + your_first_name

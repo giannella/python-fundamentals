@@ -7,6 +7,9 @@
 ## string!
 
 s = 'this string is %d characters long'
+s_len = len(s)
+print
+
 
 ## We can apply values to a string with an expression that goes:
 ## string % value(s)
