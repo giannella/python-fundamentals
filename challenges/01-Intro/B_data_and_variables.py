@@ -3,20 +3,23 @@
 # instructors
 
 ## what are our names?
-instructors = ''
+instructors = ['Dav', 'Sean']
 
 # types
 ## Now define some other types of variables
 
 ## some_int should be an integer
+some_int = int(4)
 
 ## some_float should be a float
+some_float = float(4)
 
 ## some_bool should be... what do you think?
+some_bool = bool(4)
 
 # redefining
 ## Here, I define a variable
-my_lucky_number = 7
+my_lucky_number = 9
 
 ## But Dav's lucky number is 9 (and he wrote the test)
 ## Redefine the value "correctly" below
