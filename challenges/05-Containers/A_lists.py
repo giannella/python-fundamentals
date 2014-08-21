@@ -2,7 +2,8 @@
 
 
 # (uncomment the next line to get started)
-#my_list = 
+my_list = list()
+
 
 # Make a list called your_list that contains 3 items:
 #   - your name as a string
@@ -10,14 +11,13 @@
 #   - your favorite color as a string
 
 # (uncomment the next line to get started)
-#your_list = 
+your_list = ["Eric Giannella",int(32),"blue"]
 
 
 # make the next function return a list by adding the string 'spam' as a last
 # item.
 #
-def add_spam(l):
+def add_spam(a_list):
     "adds 'spam' to a list `l`"
-    # you'll have to write code here
-    #
-    return l
+    a_list.append("spam")
+    return a_list

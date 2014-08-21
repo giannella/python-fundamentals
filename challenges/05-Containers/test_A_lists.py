@@ -25,3 +25,4 @@ def test_spam():
     result = A.add_spam(test_list)
     assert len(result) == old_length+1, "add_spam() does not add an item"
     assert result[-1] == 'spam', "add_spam() does not add 'spam' to the end"
+

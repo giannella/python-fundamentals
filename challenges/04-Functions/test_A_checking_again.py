@@ -10,7 +10,7 @@ def test_can_drink():
 
 def test_enforce(capsys):
     '''Notice that we're not restricted to the data in our script.'''
-    A.enforce("John", 18, False)
+    #A.enforce("John", 18, False)
     A.enforce("Chuck", 18, True)
     A.enforce("Bob", 21, True)
     # Since we specify the operations more tightly, we can be more precise in
