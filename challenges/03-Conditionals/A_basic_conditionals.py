@@ -8,14 +8,21 @@ john_age = 32
 ## We'll start out safe and assume no one can drink until we check!
 
 sally_can_drink = False
-john_can_drink = True
+john_can_drink = False
 
 ## Now replace False below with the "correct" condition
 ## Remember, we're playing it safe - so we should never say sally_can_drink is
 ## True!
 
-if False: # conditionals take True or False
+if sally_age < 21: # conditionals take True or False
     sally_can_drink = False
+else:
+    sally_can_drink = True
+
+if john_age < 21:
+    john_can_drink = False
+else:
+    john_can_drink = True
 
 ## And please take care of john!
 
